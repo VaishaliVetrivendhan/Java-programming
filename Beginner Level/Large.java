@@ -7,10 +7,10 @@ Scanner s=new Scanner(System.in);
 a=s.nextInt();
 b=s.nextInt();
 c=s.nextInt();
-if((a>b&&a>c)||(a==b)){
+if((a>=b)&&(a>=c)){
 System.out.println(a);
 }
-else if((b>a&&b>c)||(b==a)){
+else if((b>=a)&&(b>=c)){
 System.out.println(b);
 }
 else{
