@@ -6,7 +6,7 @@ try{
 Scanner sc=new Scanner(System.in);
 start=sc.nextInt();
 end=sc.nextInt();
-for(int i=start;i<end;i++)
+for(int i=start+1;i<end;i++)
 {
 if(i%2==0)
 System.out.print(i+" ");
