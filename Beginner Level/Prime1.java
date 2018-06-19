@@ -1,5 +1,5 @@
 import java.util.*;
-class Prime{
+class Prime1{
 public static void main(String args[]){
 try{
 int n,flag=0;
