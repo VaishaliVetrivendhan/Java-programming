@@ -6,11 +6,11 @@ Scanner s=new Scanner(System.in);
 try{
 n=s.nextInt();
 if(n<0)
-System.out.println("negative");
+System.out.println("Negative");
 else if(n>0)
-System.out.println("positive");
+System.out.println("Positive");
 else 
-System.out.println("zero");
+System.out.println("Zero");
 }
 catch(InputMismatchException e){
 System.out.println("You entered the invalid data");
